@@ -1,0 +1,53 @@
+.sourceList {
+   font-family: 'Cinzel Decorative', cursive, bold;
+   color: #ff6810;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.pads {
+  margin-left: 50px;
+}
+  .sourceHeading {
+    font-family: 'Cinzel Decorative', cursive, bold;
+    font-size: 20px;
+    color: #ff6810;
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+  }
+
+#navbar {
+  font-family: 'Cinzel Decorative', cursive, bold;
+  overflow: hidden;
+  color: black;
+  background-color: #ff6810;
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ff1500;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}

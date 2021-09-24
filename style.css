@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+}
+
+
+.heading {
+  font-family: 'Caesar Dressing', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: #ff6810;
+  background-color: #212121;
+  padding: 10px;
+  margin: 0px;
+}
+
+.subheading {
+  font-family: 'Cinzel Decorative', cursive, bold;
+  font-size: 20px;
+  color: #ff6810;
+  margin: 0px;
+  padding: 5px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.regular {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 15px;
+  text-align: center;
+  color: #ff6810;
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+
+.caption {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 12px;
+  color: #ff1500;
+  background-color: #212121;
+  text-align: center;
+  padding: 2px;
+  display: none;
+}
+
+#navbar {
+  font-family: 'Cinzel Decorative', cursive, bold;
+  overflow: hidden;
+  color: black;
+  background-color: #ff6810;
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ff1500;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.btn {
+  font-family: 'Caesar Dressing', cursive;
+  color: #ff1500;
+  text-shadow: 1px 1px #212121;
+  font-size: 15px;
+  text-decoration: underline;
+  display: none;
+  position: fixed;
+}
+
+#parallax1 {
+  /* The image used */
+  background-image: url("imgs/slideOne1.PNG");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#parallax2 {
+  /* The image used */
+  background-image: url("imgs/slideTwo1.PNG");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#parallax3 {
+  /* The image used */
+  background-image: url("imgs/slideThree1.PNG");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#parallax4 {
+  /* The image used */
+  background-image: url("imgs/slideFour1.PNG");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#parallax5 {
+  /* The image used */
+  background-image: url("imgs/slideFive1.PNG");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#parallax6 {
+  /* The image used */
+  background-image: url("imgs/slideSix1.PNG");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
